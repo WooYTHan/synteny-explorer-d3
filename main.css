@@ -1,0 +1,84 @@
+ body {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     margin: 0;
+ }
+ #show-length {
+     position: absolute;
+     top: 10px;
+     left: 10px;
+ }
+ .xaxis path,.xaxis line{
+	fill: none;
+	stroke:#a2a5aa;
+	shape-rendering: crispEdges;
+}
+ .links {
+     fill: none;
+     stroke: #E98000;
+     stroke-width: 3.8px;
+ }
+ .link-extensions {
+     fill: none;
+     stroke: #000;
+     stroke-opacity: .25;
+ }
+ .labels {
+     font: 10px sans-serif;
+ }
+ .link--active {
+     stroke: #000 !important;
+     stroke-width: 1.5px;
+ }
+ .link-extension--active {
+     stroke-opacity: .6;
+ }
+ .label--active {
+     font-weight: bold;
+ }
+ #rightBar {
+     position: fixed;
+     width: 380px;
+     border-left: #fff 1px solid;
+     right: 0px;
+     margin-top: 40px;
+     margin-right: 0px;
+ }
+.topBar {
+     position: fixed;
+     margin-right: 0px;
+ }
+ .map {
+     float: left;
+     margin-top: 24px;
+     margin-left: 20px;
+ }
+ .SelectBox {
+     width: 350px;
+     height: 200px;
+     padding: 5px;
+     background-color: #008595;
+     border-radius: 15px;
+ }
+ .SelectBox2 {
+     width: 350px;
+     height: 200px;
+     padding: 5px;
+     background-color: #eeeeee;
+     border-radius: 15px;
+ }
+ .boxOne {
+     position: fixed;
+ }
+ .active {
+     stroke: #000;
+     stroke-width: 2px;
+ }
+ input {
+     margin-left: 20px;
+     width: 60px;
+ }
+ .textArea{
+ 	font: 12px sans-serif;
+ 	color:black;
+ 	font-weight: bold;
+ }
